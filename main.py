@@ -13,28 +13,13 @@ class SearchStarterPages(object):
         self.r = requests.get(self.url, headers=headers)
         self.text = html.fromstring(self.r.text)
 
-    def search_start(self):
-        orientation = "|<"
-
+    def search(self, orientation):
         # find start page html
         first_page = self.text.xpath('.//a[text() = "{}"]/@href'.format(orientation))
         self.url = 'https://xkcd.com{}'.format(first_page[0])
         self.r = requests.get(self.url, headers=headers)
         self.text = html.fromstring(self.r.text)
-        return self.text
-
-    def search_end(self):
-        orientation = ">|"
-
-        # find end page html
-        first_page = self.text.xpath('.//a[text() = "{}"]/@href'.format(orientation))
-        self.url = 'https://xkcd.com{}'.format(first_page[0])
-        self.r = requests.get(self.url, headers=headers)
-        self.text = html.fromstring(self.r.text)
-        return self.text
-
-    def search_url(self):
-        return self.url
+        return [self.text, self.url]
 
 
 class SearchLinks(object):
@@ -84,16 +69,12 @@ class SearchLinks(object):
 
 if __name__ == '__main__':
     # search start and end url and html
-    start_page = SearchStarterPages()
-    end_page = SearchStarterPages()
-    start_page_html = start_page.search_start()
-    end_page_html = end_page.search_end()
-    start_page_url = start_page.search_url()
-    end_page_url = end_page.search_url()
+    starter_page = SearchStarterPages()
+    start_page, end_page = starter_page.search("|<"), starter_page.search(">|")  # (html, url)
 
     # search start and last links of img and link
-    object_start_links = SearchLinks(start_page_html, start_page_url)
-    object_end_links = SearchLinks(end_page_html, end_page_url)
+    object_start_links = SearchLinks(start_page[0], start_page[1])
+    object_end_links = SearchLinks(end_page[0], end_page[1])
     list_start_links = object_start_links.start_links()
     list_end_links = object_end_links.end_links()
 

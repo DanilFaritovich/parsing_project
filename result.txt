@@ -10,13 +10,13 @@ https://xkcd.com/8/ https://imgs.xkcd.com/comics/red_spiders_small.jpg
 https://xkcd.com/9/ https://imgs.xkcd.com/comics/firefly.jpg
 https://xkcd.com/10/ https://imgs.xkcd.com/comics/pi.jpg
 10 end links
-https://xkcd.com/ https://imgs.xkcd.com/comics/alien_mission.png
+https://xkcd.com/ https://imgs.xkcd.com/comics/tractor_beam.png
+https://xkcd.com/2578/ https://imgs.xkcd.com/comics/sword_pull.png
+https://xkcd.com/2577/ https://imgs.xkcd.com/comics/sea_chase.png
+https://xkcd.com/2576/ https://imgs.xkcd.com/comics/control_group.png
+https://xkcd.com/2575/ https://imgs.xkcd.com/comics/what_if_2.png
+https://xkcd.com/2574/ https://imgs.xkcd.com/comics/autoresponder.png
+https://xkcd.com/2573/ https://imgs.xkcd.com/comics/alien_mission.png
 https://xkcd.com/2572/ https://imgs.xkcd.com/comics/alien_observers.png
 https://xkcd.com/2571/ https://imgs.xkcd.com/comics/hydraulic_analogy.png
 https://xkcd.com/2570/ https://imgs.xkcd.com/comics/captain_picard_tea_order.png
-https://xkcd.com/2569/ https://imgs.xkcd.com/comics/hypothesis_generation.png
-https://xkcd.com/2568/ https://imgs.xkcd.com/comics/spinthariscope.png
-https://xkcd.com/2567/ https://imgs.xkcd.com/comics/language_development.png
-https://xkcd.com/2566/ https://imgs.xkcd.com/comics/decorative_constants.png
-https://xkcd.com/2565/ https://imgs.xkcd.com/comics/latency.png
-https://xkcd.com/2564/ https://imgs.xkcd.com/comics/sunshield.png
