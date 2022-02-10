@@ -49,12 +49,13 @@ if __name__ == '__main__':
 
     # search start and last links of img and link
     object_links = SearchLinks()
-    list_links = [object_links.links(page[0][0], page[0][-1], "Next >"), object_links.links(page[-1][0], page[-1][1], "< Prev")]
-    
+    list_links = [object_links.links(page[0][0], page[0][-1], "Next >"),
+                  object_links.links(page[-1][0], page[-1][1], "< Prev")]
+
     with open("result.txt", "w") as w:
         w.writelines("10 start links\n")
-        for i in list_start_links:
+        for i in list_links[0]:
             w.writelines(i[0] + " " + i[-1] + "\n")
         w.writelines("10 end links\n")
-        for i in list_end_links:
+        for i in reversed(list_links[1]):
             w.writelines(i[0] + " " + i[-1] + "\n")

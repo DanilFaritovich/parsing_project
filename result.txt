@@ -1,0 +1,22 @@
+10 start links
+https://xkcd.com/1/ https://imgs.xkcd.com/comics/barrel_cropped_(1).jpg
+https://xkcd.com/2/ https://imgs.xkcd.com/comics/tree_cropped_(1).jpg
+https://xkcd.com/3/ https://imgs.xkcd.com/comics/island_color.jpg
+https://xkcd.com/4/ https://imgs.xkcd.com/comics/landscape_cropped_(1).jpg
+https://xkcd.com/5/ https://imgs.xkcd.com/comics/blownapart_color.jpg
+https://xkcd.com/6/ https://imgs.xkcd.com/comics/irony_color.jpg
+https://xkcd.com/7/ https://imgs.xkcd.com/comics/girl_sleeping_noline_(1).jpg
+https://xkcd.com/8/ https://imgs.xkcd.com/comics/red_spiders_small.jpg
+https://xkcd.com/9/ https://imgs.xkcd.com/comics/firefly.jpg
+https://xkcd.com/10/ https://imgs.xkcd.com/comics/pi.jpg
+10 end links
+https://xkcd.com/2570/ https://imgs.xkcd.com/comics/captain_picard_tea_order.png
+https://xkcd.com/2571/ https://imgs.xkcd.com/comics/hydraulic_analogy.png
+https://xkcd.com/2572/ https://imgs.xkcd.com/comics/alien_observers.png
+https://xkcd.com/2573/ https://imgs.xkcd.com/comics/alien_mission.png
+https://xkcd.com/2574/ https://imgs.xkcd.com/comics/autoresponder.png
+https://xkcd.com/2575/ https://imgs.xkcd.com/comics/what_if_2.png
+https://xkcd.com/2576/ https://imgs.xkcd.com/comics/control_group.png
+https://xkcd.com/2577/ https://imgs.xkcd.com/comics/sea_chase.png
+https://xkcd.com/2578/ https://imgs.xkcd.com/comics/sword_pull.png
+https://xkcd.com/ https://imgs.xkcd.com/comics/tractor_beam.png
